@@ -17,8 +17,8 @@ return new class extends Migration
             $table->string('materia');
             $table->integer('h_semanales');
             $table->integer('h_totales');
-            $table->enum('turno', ['mañana', 'tarde']);
-            $table->string('aula');
+            // $table->enum('turno', ['mañana', 'tarde']);
+            // $table->string('aula');
             $table->unsignedBigInteger('user_id');
             $table->timestamps();
 
